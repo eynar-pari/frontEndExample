@@ -25,6 +25,7 @@ export class LibroComponent implements OnInit{
   data_id:any;
   data_autor:any;
   librosData:any=[];
+  estado:any=[];
   dataTest:any=[];
   constructor(private serviciod: LibroService)
   {
